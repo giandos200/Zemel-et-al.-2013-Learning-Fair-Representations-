@@ -19,7 +19,7 @@ Following the metrics used in the plots:
 - <img src="https://latex.codecogs.com/svg.image?F\_DAO&space;=&space;ACC\times(1-DAO)" title="F\_DAO = ACC\times(1-DAO)" />
 
 ### Installation guidelines:
-Following the instruction to install the correct packages for running the experiments
+Following the instruction to install the correct packages for running the experiments (numba==0.48.0 is mandatory)
 
 ```
 $ python3 -m venv venv_lfr
