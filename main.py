@@ -88,7 +88,6 @@ if __name__=='__main__':
     plt.legend(["ACC", "DEO", "DAO", "F_DEO", "F_DAO"])
     plt.xlabel("threshold")
     plt.show()
-
     bal_acc_arr_transf = []
     deo_arr_transf = []
     dao_arr_transf = []
