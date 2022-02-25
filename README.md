@@ -10,6 +10,8 @@ Zemel, et al. use different not usual metrics:
 - <img src="https://latex.codecogs.com/svg.image?yACC=1-\frac{1}{2}\sum_{n=1}^{N}&space;\mid&space;y_n&space;-&space;\hat{y}_n&space;\mid" title="yACC=1-\frac{1}{N}\sum_{n=1}^{N} \mid y_n - \hat{y}_n \mid" />
 - <img src="https://latex.codecogs.com/svg.image?yDiscrim&space;=&space;\mid&space;\frac{\sum_{n:s_n=1}\hat{y}_n}{\sum_{n:s_n=1}1}&space;-&space;\frac{\sum_{n:s_n=0}\hat{y}_n}{\sum_{n:s_n=0}1}&space;\mid" title="yDiscrim = \mid \frac{\sum_{n:s_n=1}\hat{y}_n}{\sum_{n:s_n=1}1} - \frac{\sum_{n:s_n=0}\hat{y}_n}{\sum_{n:s_n=0}1} \mid" />
 - <img src="https://latex.codecogs.com/svg.image?yNN&space;=&space;1&space;-&space;\frac{1}{Nk}\sum_{n=1}^{N}&space;\mid&space;\hat{y}_n&space;-&space;\sum_{j&space;\in&space;kNN(x_n)}&space;\hat{y}_j&space;\mid" title="yNN = 1 - \frac{1}{Nk}\sum_{n=1}^{N} \mid \hat{y}_n - \sum_{j \in kNN(x_n)} \hat{y}_j \mid" />
+
+Following the metrics used in the plots:
 - <img src="https://latex.codecogs.com/svg.image?ACC&space;=&space;\frac{TP&plus;TN}{TP&plus;TN&plus;FP&plus;FN}" title="ACC = \frac{TP+TN}{TP+TN+FP+FN}" />
 - <img src="https://latex.codecogs.com/svg.image?DEO&space;=&space;\mid&space;TPrate_{privileged}&space;-&space;TPrate_{unprivileged}&space;\mid" title="DEO = \mid TPrate_{privileged} - TPrate_{unprivileged} \mid" />
 - <img src="https://latex.codecogs.com/svg.image?DAO&space;=&space;\frac{\mid&space;FPrate_{privileged}-&space;FPrate_{unprivileged}\mid&plus;\mid&space;TPrate_{privileged}-TPrate_{unprivileged}\mid}{2}" title="DAO = \frac{\mid FPrate_{privileged}- FPrate_{unprivileged}\mid+\mid TPrate_{privileged}-TPrate_{unprivileged}\mid}{2}" />
