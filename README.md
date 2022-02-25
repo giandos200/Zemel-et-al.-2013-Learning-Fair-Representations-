@@ -32,7 +32,7 @@ To train and evaluate LFR with all the metrics, you may run the following comman
 ```
 $ python -u main.py
 ```
-or run the personilized dataset changing LINE 19 & 20 ("sensitive_features" and "dataset") of main.py script with an IDE or with `sudo nano main.py`
+or run the personilized dataset, changing LINE 19 & 20 ("sensitive_features" and "dataset") and the "dataloader" of main.py script with an IDE or with `sudo nano main.py`
 ### Results
 
 Following the graphics of train and test at various thresholds for different metrics (Accuracy, Difference in Equal Opportunity, Difference in Averages Odds, Fair_DEO==ACC*(1-DEO), Fair_DAO==ACC*(1-DAO)) and both German and Adult.
