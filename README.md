@@ -28,7 +28,7 @@ $ pip install --upgrade pip
 $ pip install -r requirements.txt
 ```
 
-### Training and testing models
+### Training and test the model
 To train and evaluate LFR with all the metrics, you may run the following command:
 
 ```
