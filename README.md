@@ -40,6 +40,8 @@ or run the personilized dataset, changing LINE 19 & 20 ("sensitive_features" and
 Following the graphics of train and test at various thresholds for different metrics (Accuracy, Difference in Equal Opportunity, Difference in Averages Odds, Fair_DEO==ACC*(1-DEO), Fair_DAO==ACC*(1-DAO)) and both German and Adult.
 The plot show the accuracy-fairness trade-off at various thresholdes for the generated(or predicted) y_hat.
 
+- GERMAN dataset
+
 ![image](https://user-images.githubusercontent.com/60853532/155762802-7fa20e15-c4be-4bf2-96be-45a0dbea9f04.png)
 !![image](https://user-images.githubusercontent.com/60853532/155762857-10f37c20-ef0e-4ed2-a64c-9dc8a2550d91.png)
 
@@ -49,7 +51,7 @@ Accuracy: 0.6702218787753681
 Discrimination: 0.03959704798033192
 Consistency: 0.4259762244816738
 ```
-
+- ADULT dataset
 
 ![image](https://user-images.githubusercontent.com/60853532/155762889-0200d172-98b3-4c26-bf0c-e9525aec5c58.png)
 ![image](https://user-images.githubusercontent.com/60853532/155762913-be6f2490-e515-4c40-8fb5-7b957cd6410b.png)
