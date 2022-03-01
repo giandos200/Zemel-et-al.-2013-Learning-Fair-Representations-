@@ -46,7 +46,7 @@ The plot show the accuracy-fairness trade-off at various thresholdes for the gen
 !![image](https://user-images.githubusercontent.com/60853532/155762857-10f37c20-ef0e-4ed2-a64c-9dc8a2550d91.png)
 
 ```
-Next the metrics used by Zemel, et al.
+Next the metrics used by Zemel, et al. on the Test set
 Accuracy: 0.6702218787753681
 Discrimination: 0.03959704798033192
 Consistency: 0.4259762244816738
@@ -57,7 +57,7 @@ Consistency: 0.4259762244816738
 ![image](https://user-images.githubusercontent.com/60853532/155762913-be6f2490-e515-4c40-8fb5-7b957cd6410b.png)
 
 ```
-Next the metrics used by Zemel, et al.
+Next the metrics used by Zemel, et al. on the Test set
 Accuracy: 0.6303079728728369
 Discrimination: 0.001884131225272645
 Consistency: 0.7975905194197657
