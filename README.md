@@ -21,7 +21,7 @@ Following, the metrics used in the plots proposed by myself:
 ### Installation guidelines:
 Following, the instruction to install the correct packages for running the experiments (numba==0.48.0 is mandatory)
 
-```
+```bash
 $ python3 -m venv venv_lfr
 $ source venv_lfr/bin/activate
 $ pip install --upgrade pip
@@ -31,7 +31,7 @@ $ pip install -r requirements.txt
 ### Training and test the model
 To train and evaluate LFR with all the metrics, you may run the following command:
 
-```
+```bash
 $ python -u main.py
 ```
 or run the personilized dataset, changing LINE 19 & 20 ("sensitive_features" and "dataset") and the "dataloader" of main.py script with an IDE or with `sudo nano main.py`
