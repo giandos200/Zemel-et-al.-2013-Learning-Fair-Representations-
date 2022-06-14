@@ -1,5 +1,5 @@
 # Zemel-et-al.-2013-Learning-Fair-Representations-
-Reproduction of Zemel, et al. "Learning Fair Representations", ICML 2013
+Reproduction of Zemel, et al. ["Learning Fair Representations"](http://proceedings.mlr.press/v28/zemel13.pdf), ICML 2013
 The code take inspiration from two repositories.
 - The author repo: https://github.com/zjelveh/learning-fair-representations
 - AIF360 repo: https://github.com/Trusted-AI/AIF360/blob/master/aif360/algorithms/preprocessing/lfr.py
